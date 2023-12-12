@@ -1,0 +1,91 @@
+<html lang="pt-br">
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+</head>
+<title> Pagina 2 </title>
+
+<body>
+    <form action="/hello world/Aula2_index.html" method="post"><!--corrigir pq esta liberando os dois docs-->
+        <table border="0">
+            <tr>
+                <td width="5%">
+                    <label>Nome: *
+                </td>
+                <td><input type="text" name="nome" placeholder="Digite seu nome" required="required"> </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>E-mail: *
+                </td>
+                <td><input type="email" name="email" placeholder="Digite seu e-mail" required="required"> </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>CEP: *
+                </td>
+                <td><input type="postal" name="cep" placeholder="Digite seu CEP" required="required"> </label>
+                </td>
+            </tr>
+            <td>
+                <label>Data de Nasc: *
+            </td>
+            <td><input type="date" name="nasc" placeholder="Digite sua data de nascimento" required="required"> </label>
+            </td>
+            </tr>
+            <td>
+                <label>Senha: *
+            </td>
+            <td><input type="password" name="senha" placeholder="Digite sua senha" required="required"> </label>
+            </td>
+            </tr>
+            <tr><td>
+                <label>Confirme senha: *
+            </td>
+            <td><input type="password" name="senha" placeholder="Confirme sua senha"required="required"> </label></tr>
+            </td>
+
+            <tr>
+                <td><label>Documento *</label></td><td>CNPJ<input type="radio" name="cnpj" required="required">
+                    - CPF: <input type="radio" name="cpf" required="required">
+                </td>
+            </tr>
+                                <!--type radio seleciona um, checkbox seleciona mais campos-->
+             <tr>
+                <td><label> Indicação: * </label></td><td>Filho<input type="checkbox" name="filho" required="required">
+                  - Tio <input type="checkbox" name="tio" required="required">
+             </td>
+                </tr>
+                <td>
+                    <label> Deixe sua mensagem *</label>
+                </td>
+                <td>
+                    <textarea type="text" name="mensagem" placeholder="Digite sua mensagem" required="required" cols="50"rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+            </tr>
+            <label>
+                <td colspan="1"><input type="submit" name="nome" value="Enviar">
+            </label>
+            </td>
+            <label>
+                <td colspan="1"><input type="reset" name="nome" value="Limpa Dados">
+            </label>
+            </td>
+            </tr>
+            <select name="Estados" >
+                <option name="sp" >São Paulo</option>
+                <option name="rj" >Rio de Janeiro</option>
+                <option name="pr" >Paraná</option>
+                <option name="sc" >Santa catarina</option>
+                <option name="mt" >Mato Grosso</option>
+            </select>
+        </table>
+    </form>
+</body>
+
+</html>

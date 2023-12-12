@@ -1,0 +1,34 @@
+header{
+    background: yellow;
+    position: relative;
+    height: 60px;
+}
+
+nav{
+    background: blue;
+    position: relative;
+    height: 35px;   width: 350px;
+    left:-1px; right: 100px;
+    top: 100px;
+}
+
+article{
+    background: green;
+    position: relative;
+    height: 550px; width:600px ;
+    left: 400px;
+    top: 7s0px;
+
+}
+footer{
+    background: gray;
+    position: relative;
+    height: 70px;
+}
+body{
+    position: relative;
+    height: 200px;
+    width:1000px;
+    left: 100px;
+    background: lightgray;
+}

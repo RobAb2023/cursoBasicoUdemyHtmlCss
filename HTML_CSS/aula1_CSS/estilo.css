@@ -1,0 +1,14 @@
+body{
+    color: blue;
+    font-style: italic;
+    font-size: 40px;
+    background:#f80680;
+    /**background-image: url("img/imagem1.png");*/
+
+
+}
+
+
+
+/** cores sugestão para iniciantes em CSS padrão- preto, branco, cinza e cinza claro
+https://www.w3schools.com/colors/colors_rgb.asp */

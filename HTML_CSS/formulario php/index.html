@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title> Formulario </title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" context="IE-edge">
+    <meta name="viewport" content="widht-device-widht, initial-scale-1.0">
+    <link href="form.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="form_cd">
+        <h2>Formulário de Contato</h2>
+        <form method="POST" action="form_contato.php">
+            <div><input type="text" name="nome" placeholder="Digite seu Nome"></div>
+            <div><input type="text" name="email" placeholder="Digite seu email"></div>
+            <div><input type="text" name="senha" placeholder="Digite sua Senha"></div>
+            <div><input type="text" name="assunto" placeholder="Digite o Assunto"></div><br>
+            <textarea cols="30" rows="10" name="mensagem" placeholder="Digite sua mensagem"></textarea> 
+            <div><input type="submit" name="acao" value="Cadastrar"></div>
+            <div><input type="reset" name="limpar" value="Limpar"></div>
+            <div><input type="hidden" name="form" value="f_form"></div>
+        </form>
+    </div><!-- form_cd-->
+</body>
+
+</html>
+

@@ -1,0 +1,74 @@
+/* header é o cabecalho*/
+header{
+    background: gray;
+    position: relative;
+    height: 60px;
+    border-radius:0px 0px 30px 30px;
+}
+/*menu é o nav*/
+nav{
+    background:gray;
+    position: absolute;
+    height: 50px;   width: 350px;
+    left:-1px; right: 100px;
+    top: 100px;
+    border-radius:10px 40px;
+}
+nav:hover{
+    background: rgb(27, 255, 241);
+}
+nav ul{
+    font-style: italic;
+    text-transform: uppercase;
+    
+}
+nav ul:hover{
+    background: red;
+}
+
+nav li:hover{
+    background:yellow;
+}
+/*O article é o conteudo do site  */
+nav li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+article{
+    background: gray;
+    position: relative;
+    height: 550px; width:600px ;
+    left: 400px;
+    top: 7s0px;
+    border-radius:50px 50px 30px 30px;
+
+}
+/* footer é o rodapé*/
+
+footer{
+    background:gray;
+    ;
+    position: relative;
+    height: 70px;
+    border-radius:70px 70px 0px 0px;
+
+}
+
+body{
+    position: relative;
+    height: 200px;
+    width:1000px;
+    left: 100px;
+    background: lightgray;
+
+}
+div iframe{
+    position: absolute;
+    height: 450px;   width: 350px;
+    left:-5px; right:-1px;
+    top: 165px;
+    border-radius:30px 30px 30px 30px;
+
+}
